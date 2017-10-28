@@ -18,10 +18,10 @@ To do so, I am signing this object:
             "key_id": "b3518f1706e177d1",
             "kid": "010100c65c93317cc7d14081f1e317eecc85a8278aee6c82f0a0c15cc63adbdeddb80a",
             "uid": "6277a58afca46ac01c87533fb365c219",
-            "username": "nishant"
+            "username": "chahatdeep"
         },
         "service": {
-            "hostname": "shukla.io",
+            "hostname": "chahatdeep.io",
             "protocol": "http:"
         },
         "type": "web_service_binding",
