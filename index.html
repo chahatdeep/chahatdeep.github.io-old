@@ -9,7 +9,6 @@
 
     <!-- Fonts -->
 
-
     <!-- CSS -->
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -194,17 +193,19 @@
           <div class="row">
 	    <h2 class="title">Projects</h2>
 	    <br><br>
-	    
-                <div class="col-md-3 col-sm-6">
 
+
+
+	        <!-- RRT -->
+                <div class="col-md-3 col-sm-6">
 		  <a href="https://github.com/chahatdeep/rrt_dynamic" target="_blank" style="text-decoration: none;">
                     <div class="block wow fadeInRight" data-wow-delay="1s">
                       <div class="icon">
-                        <i class="fa fa-gear"></i> 
+                        <i class="fa fa-codepen"></i> 
                       </div>
                       <h3>Rapidly-exploring Random Tree</h3>
-		      <p><small>Spring 2017</small></p>
-		      <img class="app-img img-responsive" src="images/RRT.jpg" width="250px">
+		      <p><small>March 2017</small></p>
+		      <img class="app-img img-responsive" src="images/rrt1.png" width="250px">
 		      <br>
 		      <br>
 		      <p>A rapidly exploring random tree algorithm designed to efficiently search high dimensional space to find an optimal path for a mobile robot.</p>
@@ -212,25 +213,108 @@
 		  </a>
                 </div>
 		
-
+	    <!-- Face Swap-->
             <div class="col-md-3 col-sm-6">
-	      <a target="_blank" href="https://www.manning.com/books/machine-learning-with-tensorflow" style="text-decoration: none;">
+	      <a target="_blank" href="" style="text-decoration: none;">
                 <div class="block wow fadeInRight" data-wow-delay="1.3s">
                   <div class="icon">
-                    <i class="fa fa-book"></i>
+                    <i class="fa fa-exchange"></i>
                   </div>
-                  <h3>TensorFlow Book</h3>
-		  <p><small>January 2017</small></p>
-		  <img src="images/mltf.png" height="200px">
+                  <h3>Face Swapping</h3>
+		  <p><small>March 2017</small></p>
+		  <img src="images/faceswap.png" width="250px">
 		  <br><br>
 		  <p>
-		    New textbook on using TensorFlow!
+		    Implemented Snapchat like face swap filter by performing face warping on the two images using Triangulation and Thing Plate Spline. The result was further processed using Poisson Blending and Motion Filtering to reduce the amount of flickering in the video.
 		  </p>
                 </div>
 	      </a>
             </div>
 
 
+	    <!-- Camera Calibration-->
+	    <div class="col-md-3 col-sm-6">
+	      <a target="_blank" href="docs/733/chahat_HW1.pdf" style="text-decoration: none;">
+		<div class="block wow fadeInRight" data-wow-delay="1.3s">
+		  <div class="icon">
+		    <i class="fa fa-th-large"></i>
+		  </div>
+		  <h3>My Camera Calibrator</h3>
+		  <p><small>February 2017</small></p>
+		  <img src="images/check.png" height="300px">
+		  <br><br>
+		  <p>
+		    Finding a good initial estimate of the parameters i.e. solving for K matrix (intrinsics) and [R,t] (extrinsics) so as to feed it to a non-linear optimizer (Minimum Least Square).
+		  </p>
+		</div>
+	      </a>
+	    </div>
+
+
+	    <!-- Structure From Motion-->
+	    <div class="col-md-3 col-sm-6">
+	      <a target="_blank" href="docs/733/chahat_P3.pdf" style="text-decoration: none;">
+		<div class="block wow fadeInRight" data-wow-delay="1.3s">
+		  <div class="icon">
+		    <i class="fa fa-sitemap"></i>
+		  </div>
+		  <h3>Structure from Motion</h3>
+		  <p><small>April 2017</small></p>
+		  <img src="images/cube1.png" width="250px">
+		  <br><br>
+		  <p>
+		    &ltEdit Description&gt
+		    
+		    Finding a good initial estimate of the parameters i.e. solving for K matrix (intrinsics) and [R,t] (extrinsics) so as to feed it to a non-linear optimizer (Minimum Least Square).
+		  </p>
+		</div>
+	      </a>
+	    </div>
+
+	    <hr>
+	    
+	    <!-- Seamless Carving-->
+	    <div class="col-md-3 col-sm-6">
+	      <a target="_blank" href="docs/733/chahat_hw3.pdf" style="text-decoration: none;">
+		<div class="block wow fadeInRight" data-wow-delay="1.3s">
+		  <div class="icon">
+		    <i class="fa fa-cut"></i>
+		  </div>
+		  <h3>Seamless Carving</h3>
+		  <p><small>April 2017</small></p>
+		  <img src="images/seam1.png" width="250px">
+		  <br><br>
+		  <p>
+		    &ltDescription&gt
+		  </p>
+		</div>
+	      </a>
+	    </div>
+	    
+
+	    <!-- Structure From Motion-->
+	    <div class="col-md-3 col-sm-6">
+	      <a target="_blank" href="docs/733/chahat_P3.pdf" style="text-decoration: none;">
+		<div class="block wow fadeInRight" data-wow-delay="1.3s">
+		  <div class="icon">
+		    <i class="fa fa-sitemap"></i>
+		  </div>
+		  <h3>Structure from Motion</h3>
+		  <p><small>April 2017</small></p>
+		  <img src="images/cube1.png" width="250px">
+		  <br><br>
+		  <p>
+		    &ltDescription&gt
+		  </p>
+		</div>
+	      </a>
+	    </div>
+	    
+
+
+
+	    
+<!--    
             <div class="col-md-3 col-sm-6">
 	      <a target="_blank" href="docs/2015_Mesh_Generation.pdf" style="text-decoration: none;">
                 <div class="block wow fadeInRight" data-wow-delay="1.3s">
@@ -242,7 +326,6 @@
 		  <img src="images/meshmaker.gif" width="200px">
 		  <br><br>
 		  <p>
-		    Here's my approach to reconstruct the most likely 3D mesh from a hand-drawn doodle.
 		  </p>
                 </div>
 	      </a>
@@ -415,7 +498,7 @@
 	      </a>
             </div>
 
-
+-->
 
           </div>
 
@@ -839,7 +922,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 wow fadeInDown" data-wow-delay=".8s">
-	    <h2 class="title">Resume <small><a href="docs/NishantShuklaResume.pdf">[download]</a></small></h2>
+	    <h2 class="title">Resume <small><a href="docs/ChahatResume.pdf">[download]</a></small></h2>
 	    <embed src="docs/NishantShuklaResume.pdf" width="100%" height="400px;" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
           </div>
         </div>
